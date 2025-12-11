@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/course1_toolbox" />
+            <option value="$PROJECT_DIR$/course2_data_structures" />
+            <option value="$PROJECT_DIR$/course4_strings" />
+            <option value="$PROJECT_DIR$/course5_advanced_algorithms" />
+            <option value="$PROJECT_DIR$/course6_capstone" />
+            <option value="$PROJECT_DIR$/ourse3_algorithms_on_graphs" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
