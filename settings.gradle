@@ -1,7 +1,0 @@
-rootProject.name = 'ucsd-dsa'
-include 'course1_toolbox'
-include 'course2_data_structures'
-include 'ourse3_algorithms_on_graphs'
-include 'course4_strings'
-include 'course5_advanced_algorithms'
-include 'course6_capstone'
