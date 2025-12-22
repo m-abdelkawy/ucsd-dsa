@@ -2,7 +2,7 @@ package edu.ucsd.dsa.toolbox.module1;
 
 import java.util.Scanner;
 
-class APlusB {
+class P001_APlusB {
     static int sumOfTwoDigits(int first_digit, int second_digit) {
         return first_digit + second_digit;
     }
