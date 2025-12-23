@@ -10,26 +10,40 @@ public class FastScanner {
     BufferedReader br;
     StringTokenizer st;
 
-    public FastScanner(InputStream stream){
-        try{
-            br = new BufferedReader(new InputStreamReader(stream));
-        }catch(Exception e){
-            e.printStackTrace();
-        }
+    public FastScanner(InputStream stream) {
+        br = new BufferedReader(new InputStreamReader(stream));
     }
 
-    String next(){
-        while(st == null || !st.hasMoreTokens()){
-            try{
+    String next() {
+        while (st == null || !st.hasMoreElements()) {
+            try {
                 st = new StringTokenizer(br.readLine());
-            }catch(IOException e) {
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
         return st.nextToken();
     }
 
-    public int nextInt(){
+    public int nextInt() {
         return Integer.parseInt(next());
+    }
+
+    public long nextLong() {
+        return Long.parseLong(next());
+    }
+
+    public double nextDouble() {
+        return Double.parseDouble(next());
+    }
+
+    public String nextLine() {
+        String str = "";
+        try {
+            str = br.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return str;
     }
 }

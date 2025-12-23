@@ -4,14 +4,23 @@ import edu.ucsd.dsa.toolbox.utils.FastScanner;
 
 public class P002_2_MaxPairwiseProductFast {
     public static void main(String[] args) {
+
+        // input in the form of
+        // {size} 
+        // {nums separated by space}
+        
+        long[] nums = readArray();
+        System.out.println(getMaxPairwiseProduct(nums));
+    }
+    
+    private static long[] readArray() {
         FastScanner scanner = new FastScanner(System.in);
         int n = scanner.nextInt();
         long[] nums = new long[n];
         for (int i = 0; i < n; i++) {
             nums[i] = scanner.nextInt();
         }
-
-        System.out.println(getMaxPairwiseProduct(nums));
+        return nums;
     }
 
     private static long getMaxPairwiseProduct(long[] nums) {
