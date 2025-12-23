@@ -6,7 +6,7 @@ public class P002_2_MaxPairwiseProductFast {
     public static void main(String[] args) {
 
         // input in the form of
-        // {size} 
+        // {size}
         // {nums separated by space}
         
         long[] nums = readArray();
